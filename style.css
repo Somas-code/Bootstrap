@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ font-family: "Playfair Display", serif;
+ font-optical-sizing: auto;
+ font-weight: <weight>;
+ font-style: normal;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: rgba(128, 128, 128, 0.745);
+}
+
+.maincontainer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+.maincontainer .cardcontainer img{
+    width: 200px;
+    border-radius: 15px;
+}
+.maincontainer .cardcontainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: px solid black;
+    box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.253);
+    width: 300px;
+    border-radius: 20px;
+    padding: 15px;
+    gap: 15px;
+    transition: 400ms all ease-in;
+}
+
+.maincontainer .cardcontainer .title{
+    font-weight: 600;
+    font-size: 25px;
+}
+.maincontainer .cardcontainer .prices{
+    display: flex;
+    gap: 10px;
+    color: black;
+}
+.maincontainer .cardcontainer .prices s{
+    color: rgba(128, 128, 128, 0.379);
+}
+.maincontainer .cardcontainer .star{
+    display: flex;
+    gap: 30px;
+    color: gold;
+}
+.maincontainer .cardcontainer button{
+    width: 100%;
+    height: 40px;
+    border: 2px solid rgba(128, 128, 128, 0.167);
+    border-radius: 10px;
+}
+.maincontainer .cardcontainer .heart{
+    position: absolute;
+    color: red;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+
+}
+@media screen and (max-width: 900px) {
+ 
+}
+@media screen and (max-width: 600px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        color: rgba(128, 128, 128, 0.745);
+    }
+    
+    .maincontainer{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        position: relative;
+    
+    }
+    .maincontainer .cardcontainer img{
+        width: 100px;
+        border-radius: 15px;
+    }
+    .maincontainer .cardcontainer{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.253);
+        width: 200px;
+        border-radius: 20px;
+        padding: 15px;
+        gap: 5px;
+        transition: 400ms all ease-in;
+
+   
+    }
+    .maincontainer .cardcontainer .title{
+        font-weight: 600;
+        font-size: 10px;
+    }
+    .maincontainer .cardcontainer .prices{
+        display: flex;
+        gap: 10px;
+        color: black;
+    }
+    .maincontainer .cardcontainer .prices s{
+        color: rgba(128, 128, 128, 0.379);
+    }
+    .maincontainer .cardcontainer .star{
+        display: flex;
+        gap: 10px;
+        color: gold;
+    }
+    .maincontainer .cardcontainer button{
+        width: 100%;
+        height: 40px;
+        border: 2px solid rgba(128, 128, 128, 0.167);
+        border-radius: 10px;
+    }
+    .maincontainer .cardcontainer .heart{
+        position: absolute;
+        color: red;
+        top: 1rem;
+        right: 1rem;
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 420px) {
+ 
+}
+@media screen and (max-width: 350px) {
+
+}
